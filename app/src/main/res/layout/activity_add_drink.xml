@@ -13,7 +13,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Animal Name"
         android:inputType="textPersonName"
         app2:layout_constraintEnd_toEndOf="parent"
         app2:layout_constraintStart_toStartOf="parent"
@@ -31,7 +30,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Animal Age"
         android:inputType="number"
         app2:layout_constraintEnd_toEndOf="parent"
         app2:layout_constraintStart_toStartOf="parent"
@@ -48,7 +46,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Animal Type"
         android:inputType="textPersonName"
         app2:layout_constraintEnd_toEndOf="parent"
         app2:layout_constraintStart_toStartOf="parent"
@@ -63,7 +60,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Add Animal"
         app2:layout_constraintEnd_toEndOf="@+id/et_type"
         app2:layout_constraintStart_toStartOf="@+id/et_type"
         app2:layout_constraintTop_toBottomOf="@+id/et_type"
@@ -72,5 +68,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_type"
         app:layout_constraintVertical_bias="1.0"
-        tools:text="Add Animal" />
+        tools:text="tilføjDrinkKnap" />
 </androidx.constraintlayout.widget.ConstraintLayout>

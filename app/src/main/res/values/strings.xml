@@ -16,5 +16,6 @@
     <string name="bestFriend">Min bedste ven: </string>
     <string name="useDatabase">Brug DB</string>
     <string name="tilføjDrink">Ny drink</string>
+    <string name="tilføjDrinkKnap">Tilføj drink</string>
 
 </resources>
