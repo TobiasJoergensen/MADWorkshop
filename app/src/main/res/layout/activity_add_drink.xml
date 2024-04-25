@@ -10,9 +10,11 @@
 
     <EditText
         android:id="@+id/et_name"
+        style="@style/Subheader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="Drink name"
         android:inputType="textPersonName"
         app2:layout_constraintEnd_toEndOf="parent"
         app2:layout_constraintStart_toStartOf="parent"
@@ -22,14 +24,15 @@
         app:layout_constraintHorizontal_bias="0.36"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.01999998"
-        style="@style/Subheader"/>
+        app:layout_constraintVertical_bias="0.01999998" />
 
     <EditText
         android:id="@+id/et_age"
+        style="@style/Subheader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="Drink price"
         android:inputType="number"
         app2:layout_constraintEnd_toEndOf="parent"
         app2:layout_constraintStart_toStartOf="parent"
@@ -38,28 +41,30 @@
         app:layout_constraintEnd_toEndOf="@+id/et_name"
         app:layout_constraintStart_toStartOf="@+id/et_name"
         app:layout_constraintTop_toBottomOf="@+id/et_name"
-        app:layout_constraintVertical_bias="0.0"
-        style="@style/Subheader"/>
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
         android:id="@+id/et_type"
+        style="@style/Subheader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="Drink type"
         android:inputType="textPersonName"
         app2:layout_constraintEnd_toEndOf="parent"
         app2:layout_constraintStart_toStartOf="parent"
         app2:layout_constraintTop_toBottomOf="@+id/et_age"
         app:layout_constraintEnd_toEndOf="@+id/et_age"
         app:layout_constraintStart_toStartOf="@+id/et_age"
-        app:layout_constraintTop_toBottomOf="@+id/et_age"
-        style="@style/Subheader"/>
+        app:layout_constraintTop_toBottomOf="@+id/et_age" />
 
     <Button
         android:id="@+id/add_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:contentDescription="Add drink"
+        android:text="Add drink"
         app2:layout_constraintEnd_toEndOf="@+id/et_type"
         app2:layout_constraintStart_toStartOf="@+id/et_type"
         app2:layout_constraintTop_toBottomOf="@+id/et_type"

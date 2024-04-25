@@ -2,20 +2,20 @@
 <resources>
     <string name="app_name">MADWorkshop</string>
     <string name="title">Cafe Guldhornene</string>
-    <string name="description">Den bedste lille bar i hele Aalborg. Kom og hæng ud, det er mega fest. Vi ses! :)</string>
+    <string name="description">The best little bar in all of Aalborg!</string>
     <string name="counterButton">Press the button to count</string>
     <string name="counterButtonClicked">Button was clicked: </string>
-    <string name="goToMenu">Se menu</string>
-    <string name="goToAboutUs">Om os</string>
+    <string name="goToMenu">See menu</string>
+    <string name="goToAboutUs">About us</string>
     <string name="menuTitle">Menu</string>
-    <string name="profileTItle">Profil</string>
-    <string name="saveButton">Gem profil</string>
-    <string name="profileButton">Min profil</string>
-    <string name="takeImageButton">Tag billed</string>
-    <string name="profileSavedToast">Profilen er gemt</string>
-    <string name="bestFriend">Min bedste ven: </string>
-    <string name="useDatabase">Brug DB</string>
-    <string name="tilføjDrink">Ny drink</string>
-    <string name="tilføjDrinkKnap">Tilføj drink</string>
+    <string name="profileTItle">Profile</string>
+    <string name="saveButton">Save profile</string>
+    <string name="profileButton">My profile</string>
+    <string name="takeImageButton">Take photo</string>
+    <string name="profileSavedToast">The profile was saved</string>
+    <string name="bestFriend">My best friends: </string>
+    <string name="useDatabase">Use database</string>
+    <string name="tilføjDrink">New drink</string>
+    <string name="tilføjDrinkKnap">Add drink</string>
 
 </resources>

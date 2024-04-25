@@ -70,8 +70,19 @@ public class Profile extends AppCompatActivity {
     private void SetViews() {
         //Here we get values from a shared preference file called 'Profile' and assign them into our EditText views.
         SharedPreferences myPrefsFile = getSharedPreferences("Profile", Activity.MODE_PRIVATE);
-        name.setText(myPrefsFile.getString("Name", null));
-        email.setText(myPrefsFile.getString("Email", null));
+
+        //name.setText("Your name");
+        //email.setText("Your mail");
+
+        String profileName = myPrefsFile.getString("Name", null);
+        String profileMail = myPrefsFile.getString("Email", null);
+        if(profileName != null && !profileName.isEmpty()) {
+            name.setText(profileName);
+        }
+        if(profileMail != null && !profileMail.isEmpty()) {
+            email.setText(profileMail);
+        }
+
         bestFriend.setText(myPrefsFile.getString("BestFriend", getResources().getString(R.string.bestFriend)));
         LoadImage();
         bestFriend.setOnClickListener(v -> {
